@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
+import withRoot from '../utils/withRoot'
+
 import Header from './header'
 import './layout.css'
 
@@ -48,4 +50,4 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default withRoot(Layout)
