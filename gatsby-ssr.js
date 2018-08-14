@@ -11,7 +11,7 @@
 const React = require('react');
 const { renderToString } = require('react-dom/server');
 const { JssProvider } = require('react-jss');
-const getPageContext = require('./src/utils/getPageContext');
+const getPageContext = require('./src/utils/getPageContext').default;
 
 exports.replaceRenderer = ({ bodyComponent, replaceBodyHTMLString, setHeadComponents }) => {
   // Get the context of the page to collected side effects.
