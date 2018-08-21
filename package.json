@@ -5,14 +5,17 @@
   "author": "Vince Parulan <ianparulan@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^1.5.0",
+    "babel-plugin-styled-components": "^1.5.1",
     "gatsby": "next",
     "gatsby-plugin-manifest": "next",
     "gatsby-plugin-offline": "next",
     "gatsby-plugin-react-helmet": "next",
+    "gatsby-plugin-styled-components": "^2.0.11",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
-    "react-jss": "^8.6.1"
+    "react-jss": "^8.6.1",
+    "styled-components": "^3.4.2"
   },
   "keywords": [
     "gatsby"
